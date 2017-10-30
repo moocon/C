@@ -1,16 +1,14 @@
-<pre>
-1.使用C语言的七个步骤
+/*1.使用C语言的七个步骤
   （1）定义程序目标
   （2）设计程序
   （3）编写代码
   （4）编译代码
   （5）运行程序
   （6）测试和调试程序
-  （7）维护和修改程序
-</pre>
-2. review questions
-3. Programming exercise
-```c
+  （7）维护和修改程序*/
+/*2. review questions*/
+/*3. Programming exercise*/
+
 /*
 设计英寸转厘米程序
 1.program objective:实现英寸转厘米
@@ -96,7 +94,3 @@ void inch_to_centimeter (void) {
   printf ("The centimeter: %f", centimeter);
 }
 
-
-
-
-```
