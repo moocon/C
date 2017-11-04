@@ -33,6 +33,7 @@ int main (void) {
 //转义字符序列
 #include <stdio.h>
 int main (void) {
+  
   printf ("\a警报\n");
   printf ("abcde\b退格\n");
   printf ("\f换页\n");
@@ -41,5 +42,6 @@ int main (void) {
   printf ("\v垂直制表符\n");
   printf ("\\输出反斜杠\n");
   printf ("\"输出单引号\n");
+  
   return 0;
 }
