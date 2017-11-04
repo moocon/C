@@ -1,7 +1,6 @@
-/*    note       */
+/* 知识点 */
 
-
-/* 1.使用C语言的七个步骤 */
+//使用C语言的七个步骤// 
   （1）定义程序目标
   （2）设计程序
   （3）编写代码
@@ -9,11 +8,12 @@
   （5）运行程序
   （6）测试和调试程序
   （7）维护和修改程序
-/* 2.review questions */
-/* 3.Programming exercise */
+  
+  
+/* review questions */
+/* Programming exercise */
 
-
-/* 设计英寸转厘米程序 */
+//设计英寸转厘米程序//
 1.program objective:实现英寸转厘米
 2.design the program:
   （1）提示用户输入英寸。
