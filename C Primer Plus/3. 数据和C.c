@@ -1,6 +1,6 @@
-/*基本概念*/
+/* 知识点 */
 
-/*进制*/
+//进制
 #include <stdio.h>
 int main () {
   int x = 256;
@@ -9,7 +9,7 @@ int main () {
 }
 
 
-/*函数类型大小*/
+//函数类型大小
 #include <stdio.h>
 int main (void) {
 
@@ -30,7 +30,7 @@ int main (void) {
 }
 
 
-/*转义字符序列*/
+//转义字符序列
 #include <stdio.h>
 int main (void) {
   printf ("\a警报\n");
