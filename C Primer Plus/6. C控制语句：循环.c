@@ -5,26 +5,25 @@
 
 #include <stdio.h>
 int main (void) {
-  int a = 0, b = 0, c = 10;
-      
-  for (a++; a + b < c; b++) {
-    printf ("a = %d, b = %d, a + b = %d, c = %d\n", a, b, a + b, c);
+  int a, b, c;
+
+  for (a = 0, b = 0, c = 99; a + b < c; a++, b +=10, c--) {
+    printf ("a = %02d, b = %02d, a + b = %02d, c = %02d\n", a, b, a + b, c);
   }
-        
+
   return 0;
 }
 
 运行结果：
-a = 1, b = 0, a + b = 1, c = 10
-a = 1, b = 1, a + b = 2, c = 10
-a = 1, b = 2, a + b = 3, c = 10
-a = 1, b = 3, a + b = 4, c = 10
-a = 1, b = 4, a + b = 5, c = 10
-a = 1, b = 5, a + b = 6, c = 10
-a = 1, b = 6, a + b = 7, c = 10
-a = 1, b = 7, a + b = 8, c = 10
-a = 1, b = 8, a + b = 9, c = 10
-
+a = 00, b = 00, a + b = 00, c = 99
+a = 01, b = 10, a + b = 11, c = 98
+a = 02, b = 20, a + b = 22, c = 97
+a = 03, b = 30, a + b = 33, c = 96
+a = 04, b = 40, a + b = 44, c = 95
+a = 05, b = 50, a + b = 55, c = 94
+a = 06, b = 60, a + b = 66, c = 93
+a = 07, b = 70, a + b = 77, c = 92
+a = 08, b = 80, a + b = 88, c = 91
 
 
 
